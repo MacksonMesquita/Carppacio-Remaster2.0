@@ -11,6 +11,8 @@ const config: Config = {
     colors: {
       backgroundMain: '#151038',
       textMain: '#f5f5f5',
+      hoverbackground: '#f0f0f0',
+      triggervisualization: '#ededed',
     }
   },
   plugins: [],
