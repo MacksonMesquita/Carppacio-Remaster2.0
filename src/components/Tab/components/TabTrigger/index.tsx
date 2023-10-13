@@ -16,7 +16,7 @@ export function TabTrigger({ tabs }: TabTriggerProps) {
         <Tabs.List className="flex">
           {tabs.map((tab) => (
             <Tabs.Trigger
-              className="flex-1 flex flex-col items-center justify-center text-lg text-textMain select-none data-[state=active]:text-triggerOrange border-b-2 data-[state=active]:border-b-triggerOrange pb-3 min-w-[200px] pt-10"
+              className="flex-1 flex flex-col items-center justify-center text-lg text-textMain select-none data-[state=active]:text-triggerOrange border-b-2 data-[state=active]:border-b-triggerOrange min-w-[200px] pt-10"
               key={tab.value}
               value={tab.value}
             >

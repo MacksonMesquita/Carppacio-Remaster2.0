@@ -1,8 +1,7 @@
-/* eslint-disable @next/next/no-img-element */
 import * as Tabs from "@radix-ui/react-tabs";
 import { CreatStarsArray } from "../../../StarsFunc";
-import { RadixSeparator } from "../../../Separator";
 import { ITabContent } from "@/components/types";
+import Image from "next/image";
 
 interface TabTriggerProps {
   tabscontent: ITabContent[];
@@ -17,9 +16,9 @@ export function TabContent({ tabscontent }: TabTriggerProps) {
           key={content.value}
           value={content.value}
         >
-          <div className="flex flex-col gap-7 items-center md:items-baseline max-w-[400px] w-full">
+          <div className="flex flex-col gap-7 items-center md:items-baseline max-w-[500px] w-full">
             <div className="flex items-baseline text-lg flex-col">
-              <div className="italic text-3xl m-2 flex items-center gap-2">
+              <div className="italic text-3xl m-2 flex items-center">
                 {content.title}
               </div>
               {content.subtitle}
@@ -50,10 +49,12 @@ export function TabContent({ tabscontent }: TabTriggerProps) {
               </div>
             </div>
           </div>
-          <img
-            className="min-w-[360px] h-[500px]"
-            src=""
-            alt="Representative phone image"
+          <Image
+            className="rounded-lg"
+            src="/d2002fc819ff4c4ea901899ecb0fc5c4_michelin-guide-stars-description-pt_BR.jpg"
+            alt="Representative Image"
+            width={400}
+            height={800}
           />
         </Tabs.Content>
       ))}

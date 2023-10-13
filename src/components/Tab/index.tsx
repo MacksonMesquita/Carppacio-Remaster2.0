@@ -1,4 +1,4 @@
-import { ChefdoAno, Conquista, CrtMedioIcon, PratoPremio } from "../Icons";
+import { ChefdoAno, Conquista, PratoPremio } from "../Icons";
 import { ITab, ITabContent } from "../types";
 import { TabContent, TabTrigger } from "./components";
 import * as Tabs from "@radix-ui/react-tabs";
@@ -44,9 +44,9 @@ const tabs: ITab[] = [
 const tabscontent: ITabContent[] = [
   {
     title: "Paillard de filet",
-    subtitle: 'Eleito prato do ano pelo revista "Veja"',
+    subtitle: 'Eleito prato do ano pelo revista "Veja e Saveur".',
     description:
-      "O prato Paillard de filet reconhecido como prato do ano pela revista Saveur, na edição de 18 de julho de 2017 Summer Adventures.E pelo chef de cozinha mundialmente famoso, Claude Troisgros. Trásconsigo, Paillard de filet, recheado com queijo emmental, acompanhado derisoto de palmito com alho poró. Tal Prato, foi descrito como, umaexplosão de sabores, sensação de renovação, enfeitados com creme de alho poró.",
+      'O prato Paillard de filet reconhecido como prato do ano pela revista Saveur, na edição de 18 de julho de 2017 Summer Adventures, e pelo chef de cozinha mundialmente famoso, Claude Troisgros. Trás consigo, Paillard de filet, recheado com queijo emmental, acompanhado de risoto de palmito com alho poró. Tal Prato, foi descrito pelos críticos como, "uma explosão de sabores, sensação de renovação, enfeitados com creme de alho poró".',
     crtmedio: "59%",
     taxadeaprovação: "95%",
     clientes: 5,
@@ -56,9 +56,9 @@ const tabscontent: ITabContent[] = [
   {
     title: "Tonkotsu missô lámen",
     subtitle:
-      "Formato da imagem: 320x50px, 300x250px, 320x100px, 110x90px, 728x90px e 300x600px",
+      'Eleito prato do ano pela revista de culinária Japonesa "Luna Pun Dong".',
     description:
-      "Apareça em toda a navegação da rede de anúncios da Playscores e fortaleça sua marca.",
+      "O prato Tonkotsu missô lámen reconhecido como prato inovação pela revista Luna Pun Dong, na edição de 24 de julho de 2019 Tracks of Winter. E pela graduada chef de cozinha Japonesa, Ayumi Sa Ho. Trás consigo, uma conjectura to clássico lámen japonês, recheado com ervas emmentais, acompanhado de macarrão tradiconal e legumes tipicamente japonêses. Tal Prato, foi descrito como, uma explosão de sabores com um forte senso de inovação cultural.",
     crtmedio: "31%",
     taxadeaprovação: "69,5%",
     clientes: 3,
@@ -67,9 +67,10 @@ const tabscontent: ITabContent[] = [
   },
   {
     title: "Teppanyaki de Anchova negra",
-    subtitle: "Formato da imagem: 300x600px  ",
+    subtitle:
+      'reconhecido como prato revelação e prato oceanico do ano, pela revista "Saveur".',
     description:
-      "Exiba sua marca em tela cheia sempre que um usuário abrir o App pela primeira vez.",
+      " O prato Teppanyaki de anchova negra reconhecido como  prato revelação e prato oceanico do ano pela revista Saveur, na edição de 22 de Agosto de 2020 Los fervores de la cocina. Trás consigo,  Teppanyaki de anchova negra grelhado. Tal Prato foi descrito como, uma   maravilhosa releitura marinha, senso de preservação ambiental e gosto irresistivelmente delicado, presentes na resenha sobre o mesmo, encontardas nos jornal francês Don Gusteus.",
     crtmedio: "77%",
     taxadeaprovação: "97,3%",
     clientes: 5,
@@ -77,10 +78,11 @@ const tabscontent: ITabContent[] = [
     value: "teppanyakideanchovanegra",
   },
   {
-    title: "Arabella Valentyn (2019)",
-    subtitle: "Formato da imagem: 320x50px  ",
+    title: "Arabella Valentyn",
+    subtitle:
+      "Eleita a melhor chef de cozinha em um período de 6 meses no ano de 2019",
     description:
-      "Esteja lá quando o usuário tomar iniciativa de escolher uma casa de apostas por conta própria.",
+      "Arabella Valentyn, nascida e criada no Brasil, portou no ano de 2019 o título de melhor cozinheira (mulher) em um curto período de 6 meses. Os pais Italianos de Arabella, guiaram os seus passos desde ela era apenas uma garotinha, pois desde cedo já sabiam de todo o seu potêncial na cozinha. Arabella conquista no mesmo ano, aos 22 anos de idade, o prêmio de mulher revelação mais nova, a ganhar um devido reconhecimento nacional e mundial.",
     crtmedio: "---",
     taxadeaprovação: "87%",
     clientes: 5,
@@ -89,9 +91,10 @@ const tabscontent: ITabContent[] = [
   },
   {
     title: "Mauricio Vieira (2021)",
-    subtitle: "Formato da imagem: 320x50px  ",
+    subtitle:
+      "Eleito o melhor chefe de nacionalidade estrangeira a atuar Nacionalmente",
     description:
-      "Apareça no topo da página inicial do App, onde todos podem ver sua marca.",
+      'O Português Mauricio Vieira, ganha no ano de 2021 o prêmio "Brazilian HomeWather" como melhor chefe de nacionalidade estrangeira a atuar Nacionalmente. Embora ele não tenha nascido no Brasil, se mudou com seus pais Antônio Vieira e Nitara Scherer para o mesmo quando tinha apenas 5 anos de idade, crescendo em uma cidadezinha chamada Itatiba, no interior de São Paulo. O chef tambem ganhou reconhecimento através da revista "Finally is Culture"',
     crtmedio: "---",
     taxadeaprovação: "89%",
     clientes: 4,
@@ -101,9 +104,9 @@ const tabscontent: ITabContent[] = [
   {
     title: "Melhor restaurante tradicionalmente Brasileiro (2019)",
     subtitle:
-      "Consultar a disponibilidade do contratante de fornecer os dados necessários",
+      " Carpaccio ganha prêmio de Melhor restaurante tradicionalmente Brasileiro no ano de 2019",
     description:
-      "Forneça odds de sua casa de apostas pré-live e ao vivo em todos os jogos disponíveis.",
+      "Nos anos que antecederam a pândemia, nosso restaurante ganhou reconhecimento mundial com selo michelin de aprovação. Ganhando também o campeonato Brasileiro de restaurantes e culínarias, destacando-se em primeiro lugar e garantindo o prêmio de Melhor restaurante tradicionalmente Brasileiro do ano. Durante as fases de testes, tives êxito em todas as particularidades e contamos coma presença de nossos mais ilustres chefes de cozinha.",
     crtmedio: "---",
     taxadeaprovação: "---",
     clientes: 5,
@@ -112,9 +115,9 @@ const tabscontent: ITabContent[] = [
   },
   {
     title: " Prêmio - cultura e comida (2023)",
-    subtitle: "O visual do push muda de acordo com sistema operacional",
+    subtitle: "Carpaccio ganha o prêmio cultura e comida (2023)",
     description:
-      "Aumente o reconhecimento de sua marca aparecendo junto com as melhores Tips.",
+      'Nos anos que sucederam os eventos pandêmicos causados pelo covid-19, com a volta dos eventos presenciais de culinária e disputas, nosso restaurante foi convidado a participar da grande resenha organizada pelo jornal Franês "Levviano". No evento, milhares de pequenos e grandes restaurantes do mundo inteiro são convidados a partipar de provas culinárias e avaliações criteriosas.',
     crtmedio: "---",
     taxadeaprovação: "---",
     clientes: 5,
