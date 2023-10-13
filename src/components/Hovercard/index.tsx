@@ -7,7 +7,7 @@ import * as HoverCard from "@radix-ui/react-hover-card";
 const UserHoverCard = () => (
   <HoverCard.Root>
     <HoverCard.Trigger asChild>
-      <a className="inline-block rounded-full outline-none pl-20">
+      <a className="inline-block rounded-full outline-none pl-10">
         <img
           className="block h-[45px] w-[45px] rounded-full"
           src="https://pbs.twimg.com/profile_images/1337055608613253126/r_eiMp2H_400x400.png"
@@ -31,17 +31,17 @@ const UserHoverCard = () => (
             </div>
             <div className="text-mauve12 m-0 text-[15px] leading-[1.5]">
               Carpaccio, restaurante tradicionalmente Brasileiro, <br />
-              siga-nos no instagram para ficar por dentro de tudo.
+              siga-nos no instagram para ficar por dentro de tudo!.
             </div>
             <div className="flex gap-[15px]">
               <div className="flex gap-[5px]">
                 <div className="text-mauve12 m-0 text-[15px] font-medium leading-[1.5]">
-                  190 Following
+                  Seguindo 190
                 </div>
               </div>
               <div className="flex gap-[5px]">
                 <div className="text-mauve12 m-0 text-[15px] font-medium leading-[1.5]">
-                  6,000 Followers
+                  6,000 Seguidores
                 </div>
               </div>
             </div>

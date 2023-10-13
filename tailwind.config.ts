@@ -9,10 +9,12 @@ const config: Config = {
   theme: {
     extend: {},
     colors: {
-      backgroundMain: '#151038',
+      backgroundMain: '#211148',
       textMain: '#f5f5f5',
       hoverbackground: '#f0f0f0',
       triggervisualization: '#ededed',
+      whitemain: '#ffffff',
+      darkmain: '#000000',
     }
   },
   plugins: [],

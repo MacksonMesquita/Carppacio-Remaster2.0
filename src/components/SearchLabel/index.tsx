@@ -1,18 +1,31 @@
-"use client";
-
-import React from "react";
-import * as Label from "@radix-ui/react-label";
-
-const SearchFilter = () => (
-  <div className="flex items-center gap-[15px] px-5 pr-20 pl-1">
-    <Label.Root className="text-[14px] font-medium text-textMain">
-      Pesquisar
-    </Label.Root>
-    <input
-      className="inline-flex h-[35px] w-[200px] items-center justify-center rounded-[10px] px-[10px] text-[14px]"
-      defaultValue="Carpaccio"
-    />
-  </div>
-);
-
-export default SearchFilter;
+export function SearchLabel() {
+  return (
+    <>
+      <div className="relative pt-1 pr-16 justify-center">
+        <div className="absolute inset-y-0 flex items-center pl-3">
+          <svg
+            className="h-4 w-4"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 20 20"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+            />
+          </svg>
+        </div>
+        <input
+          type="search"
+          id="default-search"
+          className="block w-full rounded-full border bg-whitemain px-4 py-2 pl-10 text-sm transition-all"
+          placeholder="Pesquisar..."
+        />
+      </div>
+    </>
+  );
+}
