@@ -1,17 +1,22 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "swiper/css/autoplay";
 
 export function Carousel1() {
   return (
     <Swiper
+      className="w-[1300px] h-[500px] rounded-3xl mt-6 object-cover"
+      modules={[Navigation, Pagination, Autoplay]}
       pagination={{ clickable: true }}
       autoplay={{ delay: 4300 }}
       slidesPerView={1}
+      navigation
     >
       <SwiperSlide>
         <img
