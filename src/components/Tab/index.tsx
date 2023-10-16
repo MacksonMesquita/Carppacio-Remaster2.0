@@ -46,7 +46,7 @@ const tabscontent: ITabContent[] = [
     title: "Paillard de filet",
     subtitle: 'Eleito prato do ano pelo revista "Veja e Saveur".',
     description:
-      'O prato Paillard de filet reconhecido como prato do ano pela revista Saveur, na edição de 18 de julho de 2017 Summer Adventures, e pelo chef de cozinha mundialmente famoso, Claude Troisgros. Trás consigo, Paillard de filet, recheado com queijo emmental, acompanhado de risoto de palmito com alho poró. Tal Prato, foi descrito pelos críticos como, "uma explosão de sabores, sensação de renovação, enfeitados com creme de alho poró".',
+      'O prato Paillard de filet reconhecido como prato do ano pela revista Saveur, na edição de 18 de julho de 2017 Summer Adventures, e pelo chef de cozinha mundialmente famoso, Claude Troisgros. Trás consigo, Paillard de filet, recheado com queijo emmental, acompanhado de risoto de palmito com alho poró. Tal Prato, foi descrito pelos críticos como, "uma explosão de sabores, sensação de renovação, enfeitados com creme de alho poró", presentes na grande resenha escrita pelo jornal Le Figaro',
     crtmedio: "59%",
     taxadeaprovação: "95%",
     clientes: 5,
@@ -102,11 +102,11 @@ const tabscontent: ITabContent[] = [
     value: "mauriciovieira",
   },
   {
-    title: "Melhor restaurante tradicionalmente Brasileiro (2019)",
+    title: "Melhor restaurante tradicionalmente Brasileiro",
     subtitle:
       " Carpaccio ganha prêmio de Melhor restaurante tradicionalmente Brasileiro no ano de 2019",
     description:
-      "Nos anos que antecederam a pândemia, nosso restaurante ganhou reconhecimento mundial com selo michelin de aprovação. Ganhando também o campeonato Brasileiro de restaurantes e culínarias, destacando-se em primeiro lugar e garantindo o prêmio de Melhor restaurante tradicionalmente Brasileiro do ano. Durante as fases de testes, tives êxito em todas as particularidades e contamos coma presença de nossos mais ilustres chefes de cozinha.",
+      "Nos anos que antecederam a pândemia, nosso restaurante ganhou reconhecimento mundial com selo michelin de aprovação. Ganhando também o campeonato Brasileiro de restaurantes e culínarias, destacando-se em primeiro lugar e garantindo o prêmio de Melhor restaurante tradicionalmente Brasileiro do ano. Durante as fases de testes, obtvemos êxito em todos os aspectos, contamos coma presença de nossos mais ilustres chefes de cozinha.",
     crtmedio: "---",
     taxadeaprovação: "---",
     clientes: 5,
@@ -114,10 +114,10 @@ const tabscontent: ITabContent[] = [
     value: "reconhecimento",
   },
   {
-    title: " Prêmio - cultura e comida (2023)",
+    title: "Prêmio - cultura e comida para restaurantes (2023)",
     subtitle: "Carpaccio ganha o prêmio cultura e comida (2023)",
     description:
-      'Nos anos que sucederam os eventos pandêmicos causados pelo covid-19, com a volta dos eventos presenciais de culinária e disputas, nosso restaurante foi convidado a participar da grande resenha organizada pelo jornal Franês "Levviano". No evento, milhares de pequenos e grandes restaurantes do mundo inteiro são convidados a partipar de provas culinárias e avaliações criteriosas.',
+      'Nos anos que sucederam os eventos pandêmicos causados pelo covid-19, com a volta dos eventos presenciais de culinária e disputas, nosso restaurante foi convidado a participar da grande resenha organizada pelo jornal Franês "Le Figaro". No evento, milhares de pequenos e grandes restaurantes do mundo inteiro são convidados a participar de provas culinárias e avaliações criteriosas, ganhando assim, o prêmio cultura e comida para restaurantes.',
     crtmedio: "---",
     taxadeaprovação: "---",
     clientes: 5,

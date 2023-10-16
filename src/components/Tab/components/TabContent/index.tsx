@@ -53,7 +53,7 @@ export function TabContent({ tabscontent }: TabTriggerProps) {
             className="rounded-lg"
             src="/d2002fc819ff4c4ea901899ecb0fc5c4_michelin-guide-stars-description-pt_BR.jpg"
             alt="Representative Image"
-            width={400}
+            width={530}
             height={800}
           />
         </Tabs.Content>
