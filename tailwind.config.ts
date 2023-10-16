@@ -5,7 +5,9 @@ const config: Config = {
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./node_modules/flowbite/**/*.js",
   ],
+
   theme: {
     extend: {},
     colors: {
@@ -24,9 +26,12 @@ const config: Config = {
       badgered: '#ff0808',
       badgegreen: '#739f0f',
       badgepurple: '#55297f',
-      badgeyellow: '#bd6c0f'
+      badgeyellow: '#bd6c0f',
+      accordioncontent: '#bcbcbc',
     }
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 }
 export default config

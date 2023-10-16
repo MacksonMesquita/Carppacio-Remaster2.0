@@ -8,19 +8,19 @@ export function Badges() {
         <SealCheck size={32} />
       </span>
       <span className="bg-badgegray text-textMain text-base font-medium mr-7 px-2.5 rounded flex items-center">
-        Prêmio - cultura e comida
+        Prêmio - Cultura e Comida (C&C)
         <SealCheck size={32} />
       </span>
       <span className="bg-badgered text-textMain text-base font-medium mr-7 px-2.5 rounded flex items-center">
-        Estrela michelin
+        Estrela Michelin
         <SealCheck size={32} />
       </span>
       <span className="bg-badgegreen text-textMain text-base font-medium mr-7 px-2.5 rounded flex items-center">
-        Restaurante do ano (2023)
+        Prêmio - São Paulo Records (2022)
         <SealCheck size={32} />
       </span>
       <span className="bg-badgeyellow text-textMain text-base font-medium mr-7 px-2.5 rounded flex items-center">
-        Anvisa Badge
+        Anvisa badge
         <SealCheck size={32} />
       </span>
       <span className="bg-badgepurple text-textMain text-base font-medium mr-7 px-2.5 rounded flex items-center">

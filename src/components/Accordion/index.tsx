@@ -4,7 +4,7 @@ export function Accordion() {
       <h2 id="accordion-collapse-heading-1">
         <button
           type="button"
-          className="flex items-center justify-between w-full p-5 font-medium text-left text-textMain border border-b-0 border-colorBorderAccordion rounded-t-xl"
+          className="flex items-center justify-between w-full p-5 font-medium text-left text-textMain border border-b-0 border-colorBorderAccordion rounded-t-xl bg-backgroundMain"
           data-accordion-target="#accordion-collapse-body-1"
           aria-expanded="true"
           aria-controls="accordion-collapse-body-1"
@@ -34,21 +34,20 @@ export function Accordion() {
         aria-labelledby="accordion-collapse-heading-1"
       >
         <div className="p-5 border border-b-0 border-textMain">
-          <p className="mb-2 text-textMain">
-            Flowbite is an open-source library of interactive components built
-            on top of Tailwind CSS including buttons, dropdowns, modals,
-            navbars, and more.
-          </p>
-          <p className="text-textMain">
-            Check out this guide to learn how to and start developing websites
-            even faster with components on top of Tailwind CSS.
+          <p className="mb-2 text-accordioncontent">
+            Carpaccio possui uma vasta gama de chefes. Alguns deles premiados
+            com as mais avançadas e desejadas consagrações gastronômicas, sendo
+            representados em revistas internacionais e resenhas criticas. Nosso
+            restaurante sempre zelou pelo reconhecimento e a dedicação na
+            cozinha, pois afinal, cozinhar não é só cozinhar, é levar ao mundo
+            através dos alimentos, amor e carinho.
           </p>
         </div>
       </div>
       <h2 id="accordion-collapse-heading-2">
         <button
           type="button"
-          className="flex items-center justify-between w-full p-5 font-medium text-left text-textMain border border-b-0 border-colorBorderAccordion rounded-t-xl"
+          className="flex items-center justify-between w-full p-5 font-medium text-left text-textMain border border-b-0 border-colorBorderAccordion rounded-t-xl bg-backgroundMain"
           data-accordion-target="#accordion-collapse-body-2"
           aria-expanded="false"
           aria-controls="accordion-collapse-body-2"
@@ -78,21 +77,20 @@ export function Accordion() {
         aria-labelledby="accordion-collapse-heading-2"
       >
         <div className="p-5 border border-b-0 border-textMain">
-          <p className="mb-2 text-textMain">
-            Flowbite is first conceptualized and designed using the Figma
-            software so everything you see in the library has a design
-            equivalent in our Figma file.
-          </p>
-          <p className="text-textMain">
-            Check out the based on the utility classes from Tailwind CSS and
-            components from Flowbite.
+          <p className="mb-2 text-accordioncontent">
+            Nosso cardápio possui variações gigantescas de alimentos e pratos,
+            preparados por mãos talentosas e especializadas no assunto. Temos
+            pratos tradicionalmente brasileiros, representantes de cada estado
+            do Brasil, partos veganos, pratos fitness, cardápios especializados
+            em frutos-do-mar, animais selvagens, iguarias, manjares, pratos
+            internacionais, cachaças, sucos naturais, batidas e muito mais!
           </p>
         </div>
       </div>
       <h2 id="accordion-collapse-heading-3">
         <button
           type="button"
-          className="flex items-center justify-between w-full p-5 font-medium text-left text-textMain border border-b-0 border-colorBorderAccordion rounded-t-xl"
+          className="flex items-center justify-between w-full p-5 font-medium text-left text-textMain border border-b-0 border-colorBorderAccordion rounded-t-xl bg-backgroundMain"
           data-accordion-target="#accordion-collapse-body-3"
           aria-expanded="false"
           aria-controls="accordion-collapse-body-3"
@@ -122,19 +120,12 @@ export function Accordion() {
         aria-labelledby="accordion-collapse-heading-3"
       >
         <div className="p-5 border border-b-0 border-textMain">
-          <p className="mb-2 text-textMain">
-            The main difference is that the core components from Flowbite are
-            open source under the MIT license, whereas Tailwind UI is a paid
-            product. Another difference is that Flowbite relies on smaller and
-            standalone components, whereas Tailwind UI offers sections of pages.
-          </p>
-          <p className="mb-2 text-textMain">
-            However, we actually recommend using both Flowbite, Flowbite Pro,
-            and even Tailwind UI as there is no technical reason stopping you
-            from using the best of two worlds.
-          </p>
-          <p className="mb-2 text-textMain">
-            Learn more about these technologies:
+          <p className="mb-2 text-accordioncontent">
+            Diferentemente de muitos outros restaurantes, prezamos pela
+            experiência do cliente, fazendo com amor e dedicação os alimentos
+            que serão consumidos, através de pessoas que amam o seu trabalho,
+            desde do maior responsável, até o menor na cadeia empresarial, todos
+            os clientes são sempre bem-vindos!
           </p>
         </div>
       </div>
