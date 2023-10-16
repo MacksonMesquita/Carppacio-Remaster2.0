@@ -17,7 +17,14 @@ const config: Config = {
       whitemain: '#ffffff',
       darkmain: '#000000',
       triggerOrange: '#FF8223',
-      ColorTriggerBorder: '#999999',
+      colorTriggerBorder: '#999999',
+      colorBorderAccordion: '#545454',
+      badgeblue: '#553bc1',
+      badgegray: '#999999',
+      badgered: '#ff0808',
+      badgegreen: '#739f0f',
+      badgepurple: '#55297f',
+      badgeyellow: '#bd6c0f'
     }
   },
   plugins: [],

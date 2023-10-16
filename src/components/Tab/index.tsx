@@ -104,7 +104,7 @@ const tabscontent: ITabContent[] = [
   {
     title: "Melhor restaurante tradicionalmente Brasileiro",
     subtitle:
-      " Carpaccio ganha prêmio de Melhor restaurante tradicionalmente Brasileiro no ano de 2019",
+      "Carpaccio ganha prêmio de Melhor restaurante tradicionalmente Brasileiro no ano de 2019",
     description:
       "Nos anos que antecederam a pândemia, nosso restaurante ganhou reconhecimento mundial com selo michelin de aprovação. Ganhando também o campeonato Brasileiro de restaurantes e culínarias, destacando-se em primeiro lugar e garantindo o prêmio de Melhor restaurante tradicionalmente Brasileiro do ano. Durante as fases de testes, obtvemos êxito em todos os aspectos, contamos coma presença de nossos mais ilustres chefes de cozinha.",
     crtmedio: "---",

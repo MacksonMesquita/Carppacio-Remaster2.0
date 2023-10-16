@@ -1,5 +1,7 @@
 "use client";
 
+import { Accordion } from "@/components/Accordion";
+import { Badges } from "@/components/Badges";
 import { Carousel1 } from "@/components/Carousel1";
 import UserHoverCard from "@/components/Hovercard";
 import MenuMain from "@/components/Menubar";
@@ -20,11 +22,14 @@ export default function Home() {
         <Titles />
         <Carousel1 />
       </section>
-      <section className="bg-backgroundSub">
+      <section className="bg-backgroundSub pb-10">
         <Texts />
         <Tab />
       </section>
-      <section className="bg-backgroundMain"></section>
+      <section className="bg-backgroundMain">
+        <Badges />
+        <Accordion />
+      </section>
     </>
   );
 }

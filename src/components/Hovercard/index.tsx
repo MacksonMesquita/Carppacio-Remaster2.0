@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-"use client";
 
 import React from "react";
 import * as HoverCard from "@radix-ui/react-hover-card";
