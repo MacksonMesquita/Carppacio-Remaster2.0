@@ -17,6 +17,7 @@ const config: Config = {
       whitemain: '#ffffff',
       darkmain: '#000000',
       triggerOrange: '#FF8223',
+      ColorTriggerBorder: '#999999',
     }
   },
   plugins: [],

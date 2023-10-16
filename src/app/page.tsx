@@ -24,6 +24,7 @@ export default function Home() {
         <Texts />
         <Tab />
       </section>
+      <section className="bg-backgroundMain"></section>
     </>
   );
 }
