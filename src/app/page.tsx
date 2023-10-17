@@ -2,7 +2,7 @@
 
 import { Accordion } from "@/components/Accordion";
 import { Badges } from "@/components/Badges";
-import { Card } from "@/components/Cards/Card";
+import { Card } from "@/components/Cards";
 import { Carousel1, Carousel2 } from "@/components/Carousel";
 import UserHoverCard from "@/components/Hovercard";
 import MenuMain from "@/components/Menubar";

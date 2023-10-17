@@ -9,7 +9,7 @@ export function Card({ cardContent }: TabCardProps) {
     <>
       {cardContent.map((content) => (
         <div key={content.chave}>
-          <a className="max-w-sm p-6 border border-r-orange-400 border-l-red-600 border-t-blue-700 border-b-yellow-300 rounded-lg flex flex-col bg-backgroundSub text-textMain font-semibold">
+          <a className="max-w-sm p-6 border border-r-yellow-500 border-l-red-700 border-t-blue-700 border-b-yellow-200 rounded-lg flex flex-col bg-backgroundSub text-textMain font-semibold">
             <div className="text-lg pb-5 uppercase select-none">
               {content.title}
             </div>
