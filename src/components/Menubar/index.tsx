@@ -7,12 +7,12 @@ const MenuMain = () => {
   return (
     <Menubar.Root className="flex py-3 select-none font-normal justify-center font-sans">
       <Menubar.Menu>
-        <Menubar.Trigger className="outline-none text-textMain px-5">
+        <Menubar.Trigger className="outline-none text-textMain px-5 text-lg">
           Mais sobre Carpaccio
         </Menubar.Trigger>
         <Menubar.Portal>
           <Menubar.Content
-            className="min-w-[220px] bg-textMain rounded-md p-4 text-center text-[15px]"
+            className="min-w-[220px] bg-textMain rounded-md p-4 text-center text-[14px]"
             align="center"
             sideOffset={11}
           >
@@ -33,7 +33,7 @@ const MenuMain = () => {
       </Menubar.Menu>
 
       <Menubar.Menu>
-        <Menubar.Trigger className="outline-none leading-none text-textMain px-5">
+        <Menubar.Trigger className="outline-none leading-none text-textMain px-5 text-lg">
           Agenda
         </Menubar.Trigger>
         <Menubar.Portal>
@@ -58,7 +58,7 @@ const MenuMain = () => {
       </Menubar.Menu>
 
       <Menubar.Menu>
-        <Menubar.Trigger className="outline-none leading-none text-textMain px-5">
+        <Menubar.Trigger className="outline-none leading-none text-textMain px-5 text-lg">
           Ajuda
         </Menubar.Trigger>
         <Menubar.Portal>
@@ -86,7 +86,7 @@ const MenuMain = () => {
       </Menubar.Menu>
 
       <Menubar.Menu>
-        <Menubar.Trigger className="outline-none leading-none text-textMain px-5">
+        <Menubar.Trigger className="outline-none leading-none text-textMain px-5 text-lg">
           Acessar
         </Menubar.Trigger>
         <Menubar.Portal>
