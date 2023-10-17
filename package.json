@@ -15,7 +15,6 @@
     "@radix-ui/react-label": "^2.0.2",
     "@radix-ui/react-separator": "^1.0.3",
     "@radix-ui/react-tabs": "^1.0.4",
-    "classnames": "^2.3.2",
     "flowbite": "^1.8.1",
     "flowbite-react": "^0.6.4",
     "next": "13.5.4",

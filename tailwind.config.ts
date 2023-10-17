@@ -28,6 +28,7 @@ const config: Config = {
       badgepurple: '#55297f',
       badgeyellow: '#bd6c0f',
       accordioncontent: '#bcbcbc',
+      textContentcard: '#d7d7d7',
     }
   },
   plugins: [

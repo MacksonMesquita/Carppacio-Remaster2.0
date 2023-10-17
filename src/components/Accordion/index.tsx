@@ -4,9 +4,9 @@ export function Accordion() {
       <h2 id="accordion-collapse-heading-1">
         <button
           type="button"
-          className="flex items-center justify-between w-full p-5 font-medium text-left text-textMain border border-b-0 border-colorBorderAccordion rounded-t-xl bg-backgroundMain"
+          className="flex items-center justify-between w-full p-5 font-medium text-left text-textMain border border-b-0 border-colorBorderAccordion rounded-t-xl bg-backgroundSub"
           data-accordion-target="#accordion-collapse-body-1"
-          aria-expanded="true"
+          aria-expanded="false"
           aria-controls="accordion-collapse-body-1"
         >
           <span>Sobre nossos chefes!</span>
@@ -47,7 +47,7 @@ export function Accordion() {
       <h2 id="accordion-collapse-heading-2">
         <button
           type="button"
-          className="flex items-center justify-between w-full p-5 font-medium text-left text-textMain border border-b-0 border-colorBorderAccordion rounded-t-xl bg-backgroundMain"
+          className="flex items-center justify-between w-full p-5 font-medium text-left text-textMain border border-b-0 border-colorBorderAccordion rounded-t-xl bg-backgroundSub"
           data-accordion-target="#accordion-collapse-body-2"
           aria-expanded="false"
           aria-controls="accordion-collapse-body-2"
@@ -79,8 +79,8 @@ export function Accordion() {
         <div className="p-5 border border-b-0 border-textMain">
           <p className="mb-2 text-accordioncontent">
             Nosso cardápio possui variações gigantescas de alimentos e pratos,
-            preparados por mãos talentosas e especializadas no assunto. Temos
-            pratos tradicionalmente brasileiros, representantes de cada estado
+            preparados por mãos talentosas e especializadas no assunto. Temos:
+            pratos tradicionalmente brasileiros, Pratos tematicos de cada estado
             do Brasil, partos veganos, pratos fitness, cardápios especializados
             em frutos-do-mar, animais selvagens, iguarias, manjares, pratos
             internacionais, cachaças, sucos naturais, batidas e muito mais!
@@ -90,7 +90,7 @@ export function Accordion() {
       <h2 id="accordion-collapse-heading-3">
         <button
           type="button"
-          className="flex items-center justify-between w-full p-5 font-medium text-left text-textMain border border-b-0 border-colorBorderAccordion rounded-t-xl bg-backgroundMain"
+          className="flex items-center justify-between w-full p-5 font-medium text-left text-textMain border border-b-0 border-colorBorderAccordion rounded-t-xl bg-backgroundSub"
           data-accordion-target="#accordion-collapse-body-3"
           aria-expanded="false"
           aria-controls="accordion-collapse-body-3"

@@ -20,3 +20,8 @@ export type ITab = {
     potencial2: number
   }
   
+  export type ICardContent = {
+    title: string
+    subtitle: string
+    chave: string
+  }
