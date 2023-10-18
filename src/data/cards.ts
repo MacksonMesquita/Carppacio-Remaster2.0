@@ -2,21 +2,21 @@ import { ICardContent } from "@/components/types";
 
 export const cardContent: ICardContent[] = [
   {
-    title: "Noteworthy technology acquisitions 2018",
+    title: "Tecnologia e comida unidas por um mundo melhor!",
     subtitle:
-      "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+      "Prezamos por novidades, e por isso, Carpaccio é conhecido por estar acoplando tecnologia e comida em um só lugar!",
     chave: "#1",
   },
   {
-    title: "Noteworthy technology acquisitions 2022",
+    title: "Cardápios adaptados e amplificados",
     subtitle:
-      "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order weguqrgr.",
+      "Não gostamos de pensar que pessoas não podem comer determinados alimentos, seja por escolha ou não. Inclusividade sempre!",
     chave: "#2",
   },
   {
-    title: "Noteworthy technology acquisitions 2023",
+    title: "Comida e união",
     subtitle:
-      "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order qppqppqpqp.",
+      "Além da comida, nosso restaurante preza pela união, buscando sempre proporcionar ambientes leves e divertidos para todos os públicos.",
     chave: "#3",
   },
 ];
