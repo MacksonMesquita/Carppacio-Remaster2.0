@@ -4,11 +4,14 @@ import { Accordion } from "@/components/Accordion";
 import { Badges } from "@/components/Badges";
 import { Card } from "@/components/Cards";
 import { Carousel1, Carousel2 } from "@/components/Carousel";
+import { Footer } from "@/components/Footer";
 import UserHoverCard from "@/components/Hovercard";
+import { Jumptron } from "@/components/Jump";
 import MenuMain from "@/components/Menubar";
 import { SearchLabel } from "@/components/SearchLabel";
 import { Tab } from "@/components/Tab";
 import Texts from "@/components/Text";
+import { Timeline } from "@/components/Timeline";
 import Titles from "@/components/Titles";
 import { cardContent } from "@/data/cards";
 
@@ -35,6 +38,13 @@ export default function Home() {
         <div className="flex justify-center p-6 gap-10 pl-16">
           <Card cardContent={cardContent} />
         </div>
+      </section>
+      <section className="bg-backgroundSub p-6">
+        <Timeline />
+        <Jumptron />
+      </section>
+      <section className="bg-backgroundMain">
+        <Footer />
       </section>
     </>
   );
