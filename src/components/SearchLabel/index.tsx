@@ -1,7 +1,7 @@
 export function SearchLabel() {
   return (
     <>
-      <div className="relative pt-1 pr-16 justify-center">
+      <div className="relative pt-1 pr-8 justify-center">
         <div className="absolute inset-y-0 flex items-center pl-3">
           <svg
             className="h-4 w-4"
