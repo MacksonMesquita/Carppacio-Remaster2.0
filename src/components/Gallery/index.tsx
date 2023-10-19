@@ -67,8 +67,8 @@ export function Gallery() {
       </div>
       <div>
         <img
-          className="h-[390px] w-full rounded-lg"
-          src="261821251-59ccc057-5999-4082-813f-5f183f5edea3.jpg"
+          className="h-auto w-full rounded-lg"
+          src="261821074-4c051ad7-cbe8-43fd-a8be-1f539508aadf.jpg"
           alt="Representative food image10"
         />
       </div>
