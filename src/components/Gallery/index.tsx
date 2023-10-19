@@ -11,8 +11,8 @@ export function Gallery() {
       </div>
       <div>
         <img
-          className="h-[390px] w-full rounded-lg"
-          src="composicao-de-comida-brasileira-deliciosa-de-alto-angulo.jpg"
+          className="h-full w-full rounded-lg"
+          src="meatballs-with-vegetables-tomato-sauce.jpg"
           alt="Representative food image2"
         />
       </div>
@@ -25,8 +25,8 @@ export function Gallery() {
       </div>
       <div>
         <img
-          className="h-auto w-full rounded-lg"
-          src="meatballs-with-vegetables-tomato-sauce.jpg"
+          className="h-[390px] w-full rounded-lg"
+          src="composicao-de-comida-brasileira-deliciosa-de-alto-angulo.jpg"
           alt="Representative food image4"
         />
       </div>

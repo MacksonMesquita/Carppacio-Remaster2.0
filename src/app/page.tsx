@@ -39,9 +39,7 @@ export default function Home() {
         <div className="flex justify-center p-6 gap-10 pl-16">
           <Card cardContent={cardContent} />
         </div>
-        <div className="justify-center">
-          <Gallery />
-        </div>
+        <Gallery />
       </section>
       <section className="bg-backgroundSub p-6">
         <Timeline />

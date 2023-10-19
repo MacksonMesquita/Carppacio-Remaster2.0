@@ -11,7 +11,7 @@ import "swiper/css/autoplay";
 export function Carousel1() {
   return (
     <Swiper
-      className="w-[1300px] h-[500px] rounded-3xl mt-6"
+      className="w-[1300px] h-[500px] rounded-3xl mt-6 z-0"
       modules={[Navigation, Pagination, Autoplay]}
       pagination={{ clickable: true }}
       autoplay={{ delay: 4300 }}
