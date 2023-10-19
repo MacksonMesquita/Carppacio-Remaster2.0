@@ -14,12 +14,14 @@ import { Tab } from "@/components/Tab";
 import Texts from "@/components/Text";
 import { Timeline } from "@/components/Timeline";
 import Titles from "@/components/Titles";
+import { Toglle } from "@/components/Toggle";
 import { cardContent } from "@/data/cards";
 
 export default function Home() {
   return (
     <>
       <section className="bg-backgroundMain rounded-b-xl flex justify-center p-2">
+        <Toglle />
         <SearchLabel />
         <MenuMain />
         <UserHoverCard />
