@@ -15,7 +15,7 @@ const UserHoverCard = () => (
       </a>
     </HoverCard.Trigger>
     <HoverCard.Portal>
-      <HoverCard.Content className=" w-[300px] rounded-md bg-hoverbackground p-5">
+      <HoverCard.Content className=" w-[300px] rounded-md bg-hoverContentbackground p-5 z-10">
         <div className="flex flex-col gap-[7px]">
           <img
             className="block h-[50px] w-[50px] rounded-full"
