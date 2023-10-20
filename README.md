@@ -56,7 +56,7 @@ Everything you will see here has been improved using good conduct and programmin
 
 **If you don't know what it is, go to the doc**
 
-> https://tailwindcss.com
+> [Learn Tailwind CSS](https://tailwindcss.com)
 
 ---
 
