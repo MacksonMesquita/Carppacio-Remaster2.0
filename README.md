@@ -66,7 +66,7 @@ Everything you will see here has been improved using good conduct and programmin
 
 * This repo was made during learning process
   
-* Tailwind css can be found here, instead of the normal CSS configuration
+* Tailwind css can be found here
 
 ---
 
