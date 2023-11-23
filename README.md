@@ -45,11 +45,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ### A clone? 🌀
 
 To avoid confusion, is important to point out that another project in another repo inspired this one.
-You can tell by going to the *First react fictional page* repository on the main screen.
 
-The main objective of this repo is to optimize and upgrade everything I learned in the initial learning process, using React and common CSS settings,
-For this, I didn't create a project from scratch, but I used the entire "universe" previously created as a basis.
-<br />
+The main objective of this repo is to optimize and upgrade everything I learned in the initial learning process.
 Everything you will see here has been improved using good conduct and programming practices, along with:
 
 * New frameworks - **like Tailwind CSS**
