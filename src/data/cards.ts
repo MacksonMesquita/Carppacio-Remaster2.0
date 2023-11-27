@@ -14,7 +14,7 @@ export const cardContent: ICardContent[] = [
     chave: "#2",
   },
   {
-    title: "Comida e união",
+    title: "Zelando através da comida e da união!",
     subtitle:
       "Além da comida, nosso restaurante preza pela união, buscando sempre proporcionar ambientes leves e divertidos para todos os públicos.",
     chave: "#3",
