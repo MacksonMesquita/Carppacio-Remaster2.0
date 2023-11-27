@@ -9,6 +9,7 @@ import { Gallery } from "@/components/Gallery";
 import UserHoverCard from "@/components/Hovercard";
 import { Jumptron } from "@/components/Jump";
 import MenuMain from "@/components/Menubar";
+import { InfoPopover } from "@/components/Popover";
 import { SearchLabel } from "@/components/SearchLabel";
 import { Tab } from "@/components/Tab";
 import Texts from "@/components/Text";
@@ -27,6 +28,7 @@ export default function Home() {
         <UserHoverCard />
       </section>
       <section className="bg-backgroundMain mt-3 rounded-t-xl pb-2">
+        <InfoPopover />
         <Titles />
         <Carousel1 />
       </section>
