@@ -1,9 +1,9 @@
 export function Jumptron() {
   return (
     <section className="">
-      <div className="py-8 px-4 mx-auto max-w-[1600px] text-center pt-20">
+      <div className="py-8 px-4 mx-auto max-w-[1600px] text-center pt-40">
         <h1 className="text-5xl font-extrabold tracking-tight text-blue-700 mb-4">Conheça a Carpaccio Hunter</h1>
-        <h3 className="text-textMain font-bold text-2xl mb-6 tracking-wide">Nós investimos no seu potencial!</h3>
+        <h3 className="text-textMain font-medium text-xl mb-6 tracking-wide">Nós investimos no seu potencial!</h3>
         <p className="mb-8 text-lg font-normal text-textMain lg:text-xl sm:px-16 lg:px-48">
           Aqui no Carpaccio Hunter nos concentramos em mercados, onde a tecnologia e a culinária, juntamente com a inovação e o capital podem desbloquear valor a longo prazo e impulsionar o
           crescimento de novas promessas na cozinha!
